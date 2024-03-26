@@ -64,4 +64,4 @@ The maximum capacity of a QR Code varies according to the content encoded and th
 
 To aid QR Code reading software, QR codes have a built in whitespace border.
 
-If you know what you're doing, and don't want a border, just set the parameter `DisableBorder` to `true`. It's still recommended you include a border manually.
+If you don't want a border, just set the parameter `DisableBorder` to `true`. It's still recommended you include a border manually.
