@@ -1,6 +1,6 @@
 # go-qrcode
 
-Forks of [/skip2/go-qrcode](https://github.com/skip2/go-qrcode).Replacing deprecated functions.
+Forks of [skip2/go-qrcode](https://github.com/skip2/go-qrcode). Replacing deprecated functions.
 
 ## Install
 
@@ -64,4 +64,4 @@ The maximum capacity of a QR Code varies according to the content encoded and th
 
 To aid QR Code reading software, QR codes have a built in whitespace border.
 
-If you know what you're doing, and don't want a border, see <https://gist.github.com/carmel/7e3d8a82f5317df9be437f8ec8ec0b7d> for how to do it. It's still recommended you include a border manually.
+If you know what you're doing, and don't want a border, just set the parameter `DisableBorder` to `true`. It's still recommended you include a border manually.
